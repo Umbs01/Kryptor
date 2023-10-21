@@ -1,1 +1,0 @@
-/home/coker/Documents/Projects/kryptor/target/package/kryptor-0.1.0/target/debug/kryptor: /home/coker/Documents/Projects/kryptor/target/package/kryptor-0.1.0/src/lib.rs /home/coker/Documents/Projects/kryptor/target/package/kryptor-0.1.0/src/main.rs

@@ -1,1 +1,0 @@
-/home/coker/Documents/Projects/cryptor/target/package/cryptor-0.1.0/target/debug/cryptor: /home/coker/Documents/Projects/cryptor/target/package/cryptor-0.1.0/src/lib.rs /home/coker/Documents/Projects/cryptor/target/package/cryptor-0.1.0/src/main.rs
