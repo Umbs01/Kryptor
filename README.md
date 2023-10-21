@@ -11,8 +11,9 @@ A simple command line cryptography tool made in Rust
 required [cargo](https://www.rust-lang.org/tools/install) to install
 
 then in your CLI
-- `$ cargo install kryptor`
-
+```
+$ cargo install kryptor
+```
 
 
 ## Features
