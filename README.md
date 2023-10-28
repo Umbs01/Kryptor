@@ -20,7 +20,7 @@ $ cargo install kryptor
 
 ## Features
 
-- Encode/Decode formats such as base64 ROT13 A1Z26 hex
+- Encode/Decode formats such as base64 base32 ROT13 A1Z26 hex
 
 - hashing
 
