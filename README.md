@@ -29,6 +29,28 @@ $ cargo install kryptor
 
 ## Usage/Examples
 
+```
+$ kryptor -h       
+Kryptor 0.1.3
+A simple command-line cryptography tool
+
+USAGE:
+    kryptor [FLAGS] [OPTIONS] [FILE]...
+
+FLAGS:
+    -h, --help       Prints help information
+    -p, --hexdump    hexdump the file specified
+    -V, --version    Prints version information
+
+OPTIONS:
+    -d, --decode <decode>    decode text to the format specified [possible values: base32, base64, hex, ROT13, A1Z26]
+    -e, --encode <encode>    encode to the format specified [possible values: base32, base64, hex, ROT13, A1Z26]
+    -s, --hash <hash>        hash the strings in the file [possible values: SHA256, SHA512]
+
+ARGS:
+    <FILE>...    Input file(s) or leave blank to recieve input from stdin [default: -]
+```
+
 file.txt
 
 `hello world`
