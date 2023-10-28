@@ -18,7 +18,7 @@ pub struct Config {
 
 pub fn get_args() -> MyResult<Config> {
     let matches = App::new("Kryptor")
-        .version("0.1.0")
+        .version("0.1.2")
         .about("A simple command-line cryptography tool")
         .arg(
             Arg::with_name("files")
@@ -345,7 +345,7 @@ pub fn run(config: Config) -> MyResult<()> {
                                     return Ok(());
                                 }
                             } else {
-                                eprintln!("Either encoding or decoding must be specified.");
+                                eprintln!("flags must be specified.");
                                 return Ok(());
                             };
 
@@ -357,7 +357,6 @@ pub fn run(config: Config) -> MyResult<()> {
     }
     Ok(())
 }
-
 
 // open function-----------------------------------------------------
 fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
