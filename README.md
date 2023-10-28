@@ -1,6 +1,8 @@
 
 # Kryptor
 
+## Description
+
 A simple command line cryptography tool made in Rust
 
 
