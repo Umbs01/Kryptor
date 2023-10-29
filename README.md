@@ -19,13 +19,11 @@ $ cargo install kryptor
 
 
 ## Features
+Kryptor offers following key features:
 
-- Encode/Decode formats such as base64 base32 ROT13 A1Z26 hex
-
-- hashing
-
-- hexdump
-
+- **Encode/Decode**: Kryptor supports encoding and decoding of various formats, including base64, base32, ROT13, A1Z26, and hexadecimal (hex).
+- **Hashing**: You can hash strings using popular algorithms like SHA256 and SHA512.
+- **Hexdump**: Kryptor provides the ability to create hexdumps of files.
 
 ## Usage/Examples
 
@@ -50,15 +48,19 @@ OPTIONS:
 ARGS:
     <FILE>...    Input file(s) or leave blank to recieve input from stdin [default: -]
 ```
+## Examples
 
-file.txt
+Here are some examples of how to use Kryptor:
 
-`hello world`
-
+- encode the context of a file in base64 and save it to a new file:
 ```
 $ kryptor --encode base64 file.txt > output.txt
 ```
-
-output.txt
-
-`aGVsbG8gd29ybGQh`
+- Hash the strings in a file using SHA256 and display the result:
+```
+$ kryptor --hash SHA256 file.txt
+```
+- Create a hexdump of a file:
+```
+$ kryptor -p file.txt
+```
